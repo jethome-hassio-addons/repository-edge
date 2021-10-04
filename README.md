@@ -36,6 +36,19 @@ https://github.com/jethome-ru/hassio-repository-edge
 
 ## Add-ons provided by this repository
 
+### &#10003; [JetHome JetHub peripheral exposer][addon-hassio-addon-jethub-mqtt-io]
+
+![Latest Version][hassio-addon-jethub-mqtt-io-version-shield]
+![Supports armhf Architecture][hassio-addon-jethub-mqtt-io-armhf-shield]
+![Supports armv7 Architecture][hassio-addon-jethub-mqtt-io-armv7-shield]
+![Supports aarch64 Architecture][hassio-addon-jethub-mqtt-io-aarch64-shield]
+![Supports amd64 Architecture][hassio-addon-jethub-mqtt-io-amd64-shield]
+![Supports i386 Architecture][hassio-addon-jethub-mqtt-io-i386-shield]
+
+Expose JetHome JetHub peripheral (relays, inputs, etc..)
+
+[:books: JetHome JetHub peripheral exposer add-on documentation][addon-doc-hassio-addon-jethub-mqtt-io]
+
 ## Releases
 
 Add-on releases are **NOT** based on [Semantic Versioning][semver], unlike
@@ -44,7 +57,17 @@ add-on, represents the version number.
 
 ## Support
 
+- [Open an issue for the add-on: JetHome JetHub peripheral exposer][hassio-addon-jethub-mqtt-io-issue]
 
+[addon-hassio-addon-jethub-mqtt-io]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/ffda257
+[addon-doc-hassio-addon-jethub-mqtt-io]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/blob/ffda257/README.md
+[hassio-addon-jethub-mqtt-io-issue]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/issues
+[hassio-addon-jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-ffda257-blue.svg
+[hassio-addon-jethub-mqtt-io-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[hassio-addon-jethub-mqtt-io-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
+[hassio-addon-jethub-mqtt-io-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[hassio-addon-jethub-mqtt-io-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[hassio-addon-jethub-mqtt-io-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
 [issue]: https://github.com/jethome-ru/hassio-repository-edge/issues
 [license-shield]: https://img.shields.io/github/license/jethome-ru/hassio-repository-edge.svg
