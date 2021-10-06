@@ -36,7 +36,7 @@ https://github.com/jethome-ru/hassio-repository-edge
 
 ## Add-ons provided by this repository
 
-### &#10003; [JetHome JetHub peripheral exposer][addon-hassio-addon-jethub-mqtt-io]
+### &#10003; [JetHome JetHub mqtt-io peripheral exposer][addon-hassio-addon-jethub-mqtt-io]
 
 ![Latest Version][hassio-addon-jethub-mqtt-io-version-shield]
 ![Supports armhf Architecture][hassio-addon-jethub-mqtt-io-armhf-shield]
@@ -45,9 +45,9 @@ https://github.com/jethome-ru/hassio-repository-edge
 ![Supports amd64 Architecture][hassio-addon-jethub-mqtt-io-amd64-shield]
 ![Supports i386 Architecture][hassio-addon-jethub-mqtt-io-i386-shield]
 
-Expose JetHome JetHub peripheral (relays, inputs, etc..)
+Expose JetHome JetHub peripheral (relays, inputs, etc..) via mqtt-io
 
-[:books: JetHome JetHub peripheral exposer add-on documentation][addon-doc-hassio-addon-jethub-mqtt-io]
+[:books: JetHome JetHub mqtt-io peripheral exposer add-on documentation][addon-doc-hassio-addon-jethub-mqtt-io]
 
 ## Releases
 
@@ -57,7 +57,7 @@ add-on, represents the version number.
 
 ## Support
 
-- [Open an issue for the add-on: JetHome JetHub peripheral exposer][hassio-addon-jethub-mqtt-io-issue]
+- [Open an issue for the add-on: JetHome JetHub mqtt-io peripheral exposer][hassio-addon-jethub-mqtt-io-issue]
 
 [addon-hassio-addon-jethub-mqtt-io]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/ffda257
 [addon-doc-hassio-addon-jethub-mqtt-io]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/blob/ffda257/README.md
