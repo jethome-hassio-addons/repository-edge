@@ -36,5 +36,5 @@ If you are more interested in stable releases of our add-ons:
 [logo]: logo.png "JetHub mqtt-io"
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-bc6385c-blue.svg
-[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/bc6385c
+[release-shield]: https://img.shields.io/badge/version-5beb68a-blue.svg
+[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/5beb68a

@@ -1,1 +1,1 @@
-- Update docs
+- Added org.opencontainers.image.licenses
