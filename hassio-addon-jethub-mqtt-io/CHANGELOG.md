@@ -1,1 +1,1 @@
-- Create LICENSE
+- Use "github.token" for docker login
