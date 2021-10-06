@@ -8,6 +8,8 @@
 
 Expose [JetHub](http://jethome.ru) resources (relays,inputs,etc..) to Home Assistant via [mqtt-io](https://github.com/flyte/mqtt-io)
 
+**Note**: _All used GPIOs will **disappear** from **/sys/class/gpio** during addon run_
+
 ## Supported devices:
 
 - [JetHome JetHub D1](http://jethome.ru/jethub-d1) (Basic version with 3 relays, 4 inputs and 1-wire).
@@ -34,5 +36,5 @@ If you are more interested in stable releases of our add-ons:
 [logo]: logo.png "JetHub mqtt-io"
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-f5db871-blue.svg
-[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/f5db871
+[release-shield]: https://img.shields.io/badge/version-bc6385c-blue.svg
+[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/bc6385c

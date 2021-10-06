@@ -1,1 +1,1 @@
-- Use "github.token" for docker login
+- Update docs
