@@ -1,1 +1,1 @@
-- Added stat LEDs
+- Added host/user/password template to mqtt-io to allow use it as template in wiki for systemd version
