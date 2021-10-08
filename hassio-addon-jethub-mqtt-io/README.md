@@ -1,5 +1,3 @@
-![alt text][logo]
-
 # Home Assistant Add-on: JetHome JetHub peripheral exposer
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
@@ -33,8 +31,7 @@ If you are more interested in stable releases of our add-ons:
 
 <https://github.com/jethome-ru/hassio-repository>
 
-[logo]: logo.png "JetHub mqtt-io"
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-129450b-blue.svg
-[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/129450b
+[release-shield]: https://img.shields.io/badge/version-a9dee56-blue.svg
+[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/a9dee56
