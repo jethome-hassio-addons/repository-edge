@@ -10,7 +10,16 @@ Expose [JetHub](http://jethome.ru) resources (relays,inputs,etc..) to Home Assis
 
 ## Supported devices:
 
-- [JetHome JetHub D1](http://jethome.ru/jethub-d1) (Basic version with 3 relays, 4 inputs and 1-wire).
+### [JetHome JetHub D1](http://jethome.ru/jethub-d1) (Basic version with 3 relays, 4 inputs and 1-wire).
+
+**Exposed peripheral:**
+
+- 3 relays
+- 4 inputs
+- internal stat LED (green/red)
+
+**Note**: _You still need to use native Home Assistant [1-Wire](https://www.home-assistant.io/integrations/onewire/) integration to expose 1-Wire device 
+like temperature sensors `DS18B20`_
 
 ## WARNING! THIS IS AN EDGE VERSION!
 
@@ -33,5 +42,5 @@ If you are more interested in stable releases of our add-ons:
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-a9dee56-blue.svg
-[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/a9dee56
+[release-shield]: https://img.shields.io/badge/version-4ee891e-blue.svg
+[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/4ee891e

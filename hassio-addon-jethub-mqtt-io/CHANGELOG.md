@@ -1,1 +1,1 @@
-- Added JetHub name to imported HA device
+- Update README
