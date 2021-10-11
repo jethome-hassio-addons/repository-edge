@@ -1,1 +1,1 @@
-- Update README
+- Fix token var name for stable and beta deployment
