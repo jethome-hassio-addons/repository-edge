@@ -73,5 +73,4 @@ add-on, represents the version number.
 [license-shield]: https://img.shields.io/github/license/jethome-ru/hassio-repository-edge.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
