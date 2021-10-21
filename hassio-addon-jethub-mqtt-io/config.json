@@ -1,6 +1,6 @@
 {
   "name": "JetHome JetHub mqtt-io peripheral exposer",
-  "version": "ac0ce2d",
+  "version": "a7cc563",
   "slug": "jethub-mqtt-io",
   "description": "Expose JetHome JetHub peripheral (relays, inputs, etc..) via mqtt-io",
   "url": "https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io",

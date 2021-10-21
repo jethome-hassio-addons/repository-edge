@@ -40,7 +40,18 @@ If you are more interested in stable releases of our add-ons:
 
 <https://github.com/jethome-ru/hassio-repository>
 
+
+## JetHome resources:
+
+- Documentation - https://wiki.jethome.ru 3
+- Official website - http://jethome.ru 2
+- Telegram news channel - https://t.me/jethome_news
+- Telegram official chat - https://t.me/jethomeru
+- GitHub: https://github.com/jethome-ru 1
+- E-Store: http://jhome.ru 2
+- Instagram - https://instagram.com/jethomeru
+
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-ac0ce2d-blue.svg
-[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/ac0ce2d
+[release-shield]: https://img.shields.io/badge/version-a7cc563-blue.svg
+[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/a7cc563
