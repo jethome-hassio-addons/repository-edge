@@ -1,4 +1,22 @@
 # Changelog since v0.1.1
+- Merge pull request #9 from jethome-ru/dependabot/github_actions/actions/checkout-2.4.0
+
+Bump actions/checkout from 2.3.5 to 2.4.0 
+- Bump actions/checkout from 2.3.5 to 2.4.0
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 2.3.5 to 2.4.0.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v2.3.5...v2.4.0)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> 
 - Merge pull request #8 from jethome-ru/dependabot/github_actions/frenck/action-addon-linter-2.5
 
 Bump frenck/action-addon-linter from 2.4.1 to 2.5 
