@@ -1,4 +1,21 @@
 # Changelog since v0.1.3
+- Merge pull request #15 from jethome-ru/dependabot/github_actions/release-drafter/release-drafter-5.17.6
+
+Bump release-drafter/release-drafter from 5.17.5 to 5.17.6 
+- Bump release-drafter/release-drafter from 5.17.5 to 5.17.6
+
+Bumps [release-drafter/release-drafter](https://github.com/release-drafter/release-drafter) from 5.17.5 to 5.17.6.
+- [Release notes](https://github.com/release-drafter/release-drafter/releases)
+- [Commits](https://github.com/release-drafter/release-drafter/compare/v5.17.5...v5.17.6)
+
+---
+updated-dependencies:
+- dependency-name: release-drafter/release-drafter
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> 
 - Merge pull request #12 from jethome-ru/dependabot/github_actions/frenck/action-addon-linter-2.6
 
 Bump frenck/action-addon-linter from 2.5 to 2.6 
