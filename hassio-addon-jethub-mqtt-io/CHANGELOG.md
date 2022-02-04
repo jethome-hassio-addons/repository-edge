@@ -1,4 +1,21 @@
 # Changelog since v0.1.3
+- Merge pull request #17 from jethome-ru/dependabot/github_actions/release-drafter/release-drafter-5.18.0
+
+Bump release-drafter/release-drafter from 5.17.6 to 5.18.0 
+- Bump release-drafter/release-drafter from 5.17.6 to 5.18.0
+
+Bumps [release-drafter/release-drafter](https://github.com/release-drafter/release-drafter) from 5.17.6 to 5.18.0.
+- [Release notes](https://github.com/release-drafter/release-drafter/releases)
+- [Commits](https://github.com/release-drafter/release-drafter/compare/v5.17.6...v5.18.0)
+
+---
+updated-dependencies:
+- dependency-name: release-drafter/release-drafter
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> 
 - Merge pull request #15 from jethome-ru/dependabot/github_actions/release-drafter/release-drafter-5.17.6
 
 Bump release-drafter/release-drafter from 5.17.5 to 5.17.6 
