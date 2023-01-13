@@ -1,4 +1,11 @@
 # Changelog since v0.1.3
+- Fix for `S6-overlay-suexec: fatal: can only run as pid 1`
+
+* https://community.home-assistant.io/t/s6-overlay-suexec-fatal-can-only-run-as-pid-1/426969/5
+* https://www.home-assistant.io/blog/2022/06/01/release-20226/#breaking-changes 
+- config.json -> config.yaml 
+- Update Dockerfile LABEL 
+- config.json: fix URL 
 - Fix addon dir name 
 - Update mqtt-io to 2.2.7 
 - Update Dockerfile to build from `hassio-addons/base-python/aarch64:9.0.1` 
