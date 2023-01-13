@@ -1,4 +1,7 @@
 # Changelog since v0.1.3
+- Update .yamllint: `min-spaces-from-content: 1`
+
+Prettifier use 1 space 
 - Prettified Code! 
 - config.yaml: fix lint 
 - Update S6-Overlay 3.x 
