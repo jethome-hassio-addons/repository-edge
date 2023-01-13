@@ -1,4 +1,9 @@
 # Changelog since v0.1.3
+- Prettified Code! 
+- config.yaml: fix lint 
+- Update S6-Overlay 3.x 
+- build.json -> build.yaml 
+- config.yaml: added init: false 
 - Fix for `S6-overlay-suexec: fatal: can only run as pid 1`
 
 * https://community.home-assistant.io/t/s6-overlay-suexec-fatal-can-only-run-as-pid-1/426969/5
