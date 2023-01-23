@@ -27,4 +27,4 @@ services:
 - mqtt:need
 slug: jethub-mqtt-io
 url: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io
-version: b4fa71e
+version: 248b2b4
