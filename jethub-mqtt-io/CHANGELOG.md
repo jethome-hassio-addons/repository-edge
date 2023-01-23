@@ -1,4 +1,6 @@
 # Changelog since v0.2.0
+- Fix yaml lint 
+- workflows/deploy: remove CAS_API_KEY 
 - Dockerfile: update git to git=2.36.4-r0 
 - Revert "build.json -> build.yaml"
 
