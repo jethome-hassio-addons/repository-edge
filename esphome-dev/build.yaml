@@ -1,0 +1,5 @@
+---
+build_from:
+  aarch64: ghcr.io/jethome-iot/esphome-hassio:dev
+  amd64: ghcr.io/jethome-iot/esphome-hassio:dev
+  armv7: ghcr.io/jethome-iot/esphome-hassio:dev
