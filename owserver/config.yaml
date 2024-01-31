@@ -1,15 +1,15 @@
 name: JH owserver (1-wire)
-version: a140a9d
+version: 0.3.5
 slug: owserver
 description: onewire server to read 1-Wire devices
 url: https://github.com/lrybak/hassio-owserver
 startup: system
 init: false
 arch:
-- amd64
-- aarch64
-- armhf
-- armv7
+  - amd64
+  - aarch64
+  - armhf
+  - armv7
 boot: auto
 uart: true
 options:
