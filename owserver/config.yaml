@@ -1,10 +1,13 @@
 name: JH owserver (1-wire)
-version: 0.3.5
+version: 0.3.5a
 slug: owserver
 description: onewire server to read 1-Wire devices
 url: https://github.com/lrybak/hassio-owserver
 startup: system
 apparmor: false
+privileged:
+  - NET_ADMIN
+  - NET_RAW
 init: false
 arch:
   - amd64
