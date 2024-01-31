@@ -4,6 +4,7 @@ slug: owserver
 description: onewire server to read 1-Wire devices
 url: https://github.com/lrybak/hassio-owserver
 startup: system
+apparmor: false
 init: false
 arch:
   - amd64
