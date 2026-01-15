@@ -10,6 +10,7 @@ arch:
 - aarch64
 homeassistant: 2021.8.8
 gpio: true
+devicetree: true
 apparmor: false
 options:
   log_level: info
