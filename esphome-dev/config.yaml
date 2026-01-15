@@ -2,7 +2,6 @@
 url: https://next.esphome.io/
 arch:
 - amd64
-- armv7
 - aarch64
 hassio_api: true
 auth_api: true

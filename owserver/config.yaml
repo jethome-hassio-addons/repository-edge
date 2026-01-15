@@ -12,8 +12,6 @@ init: false
 arch:
   - amd64
   - aarch64
-  - armhf
-  - armv7
 boot: auto
 uart: true
 options:
