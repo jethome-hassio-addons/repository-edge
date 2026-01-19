@@ -1,4 +1,23 @@
 # Changelog since v0.3.0
+- Merge pull request #53 from jethome-hassio-addons/feature/gpio2mqtt-dispatch-trigger
+
+feat(ci): add gpio2mqtt dispatch trigger workflow 
+- fix(ci): address security review comments
+
+- Use env variables instead of direct payload interpolation to prevent
+  script injection vulnerability
+- Add comment explaining is_release/is_prerelease precedence logic 
+- Update .github/workflows/gpio2mqtt-trigger.yaml
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com> 
+- feat(ci): add gpio2mqtt dispatch trigger workflow
+
+- Add gpio2mqtt-trigger.yaml to handle repository_dispatch events
+  from gpio2mqtt repository
+- Update deploy.yaml to trigger on gpio2mqtt Trigger workflow completion
+- Creates draft release for stable releases
+- Creates draft prerelease for beta releases
+- Dev builds only update edge channel 
 - Merge pull request #52 from jethome-hassio-addons/feat/migrate-to-gpio2mqtt
 
 feat: migrate from mqtt-io to gpio2mqtt 

@@ -56,10 +56,10 @@ add-on, represents the version number.
 
 - [Open an issue for the add-on: JetHome JetHub mqtt-io peripheral exposer][jethub-mqtt-io-issue]
 
-[addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/112dfb2
-[addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/112dfb2/README.md
+[addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/e3a7fed
+[addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/e3a7fed/README.md
 [jethub-mqtt-io-issue]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/issues
-[jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-112dfb2-blue.svg
+[jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-e3a7fed-blue.svg
 [jethub-mqtt-io-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [jethub-mqtt-io-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 
