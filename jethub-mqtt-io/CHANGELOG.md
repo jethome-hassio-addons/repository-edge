@@ -1,4 +1,21 @@
 # Changelog since v0.3.0
+- Merge pull request #54 from jethome-hassio-addons/fix/gpio2mqtt-legacy-mqttio-config
+
+fix(config): add legacy_mqttio compatibility settings 
+- feat(config): add legacy_mqttio as configurable addon option
+
+- Add legacy_mqttio option to config.yaml (default: true)
+- Add schema validation (bool, always visible in UI)
+- Dynamically inject legacy_mqttio in entrypoint.sh
+- Remove hardcoded legacy_mqttio from static configs
+
+Users can now toggle mqtt-io compatibility mode from addon UI.
+Default true maintains backward compatibility for migrations. 
+- fix(config): add legacy_mqttio compatibility settings
+
+Add client_id and legacy_mqttio: true to all gpio2mqtt configs
+for seamless migration from mqtt-io without entity duplication
+in Home Assistant. 
 - Merge pull request #53 from jethome-hassio-addons/feature/gpio2mqtt-dispatch-trigger
 
 feat(ci): add gpio2mqtt dispatch trigger workflow 
