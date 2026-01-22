@@ -1,4 +1,5 @@
 # Changelog since v0.3.0
+- Update description 
 - Merge pull request #54 from jethome-hassio-addons/fix/gpio2mqtt-legacy-mqttio-config
 
 fix(config): add legacy_mqttio compatibility settings 
