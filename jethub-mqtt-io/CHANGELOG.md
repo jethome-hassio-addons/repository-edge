@@ -1,4 +1,22 @@
 # Changelog since v0.3.0
+- fix(dockerfile): add hadolint ignore for DL4006 and SC1091 
+- fix(dockerfile): restore binary rename for correct arch 
+- fix(dockerfile): use multi-arch manifest and dev tag directly
+
+- Use multi-arch OCI manifest (remove -${ARCH} suffix from tag)
+- For dev channel use 'dev' tag directly instead of reading from JSON
+- Simplify binary download (artifact now named 'gpio2mqtt') 
+- feat: add gpio2mqtt-versions.json for dynamic binary versioning
+
+- Create gpio2mqtt-versions.json to track binary versions per channel
+- Modify gpio2mqtt-trigger.yaml to update JSON on dispatch events
+- Update Dockerfile to read version from JSON based on addon version
+- Remove hardcoded BINARY_VERSION from build.yaml
+
+Channel detection:
+- Version with rc/beta -> beta channel
+- Pure semver (X.Y.Z) -> stable channel
+- Everything else -> dev channel 
 - Update description 
 - Merge pull request #54 from jethome-hassio-addons/fix/gpio2mqtt-legacy-mqttio-config
 
