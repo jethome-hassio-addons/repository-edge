@@ -1,4 +1,13 @@
 # Changelog since v0.3.0
+- feat(detect-model): add /proc/cmdline detection method
+
+Add fallback detection via board= parameter in /proc/cmdline:
+- jethub-j80 -> jethub-h1
+- jethub-j100 -> jethub-d1
+- jethub-j200 -> jethub-d2
+
+Also improve error reporting - each detection method now outputs
+its specific error message immediately after failure. 
 - fix(dockerfile): add hadolint ignore for DL4006 and SC1091 
 - fix(dockerfile): restore binary rename for correct arch 
 - fix(dockerfile): use multi-arch manifest and dev tag directly
