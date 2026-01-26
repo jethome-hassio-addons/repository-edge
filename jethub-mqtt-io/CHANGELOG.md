@@ -1,4 +1,11 @@
 # Changelog since v0.3.0
+- docs: update README template
+
+- Fix shields.io badge for versions with hyphens (escape - as --)
+- Update links to HTTPS
+- Add warning about auto-detection requiring HAOS
+- Add English Telegram channels
+- Update product page URLs 
 - feat(detect-model): add /proc/cmdline detection method
 
 Add fallback detection via board= parameter in /proc/cmdline:
