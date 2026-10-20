@@ -98,6 +98,23 @@ for ZigBee/UXM module control (BOOT, RESET pins).
 **Note**: The JetHub D3 base configuration already includes the UXM control
 lines, so this option has no additional effect on D3 (the base config is used).
 
+### Option: `restore_mode`
+
+Startup behavior of the outputs (relays, LEDs, module control lines) after a
+restart or power cycle:
+
+- `restore` - restore the last state from the MQTT retained message; fall
+  back to the built-in default when no retained value exists
+- `off` - never restore; switch everything OFF at startup
+- `on` - never restore; switch everything ON at startup
+
+**Default**: `restore`
+
+This applies to every output that does not define its own `restore_mode` /
+`restore_state` (e.g. outputs from a `custom_config`). Inputs are always
+re-published on (re)connect, and states survive a full broker restart, so
+nothing needs to be configured for them.
+
 ### Option: `custom_config`
 
 Optional custom gpio2mqtt YAML configuration. If provided, this will be used
