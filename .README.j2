@@ -20,7 +20,7 @@ This repository was created for:
 
 If you are more interested in stable releases of our add-ons:
 
-<https://github.com/jethome-ru/hassio-repository>
+<https://github.com/jethome-hassio-addons/repository>
 
 ## Installation
 
