@@ -67,10 +67,10 @@ add-on, represents the version number.
 - [Open an issue for the add-on: JetHome JetHub GPIO2MQTT peripheral exposer][jethub-gpio2mqtt-issue]
 - [Open an issue for the add-on: JetHome JetHub mqtt-io peripheral exposer][jethub-mqtt-io-issue]
 
-[addon-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/7d24b2f
-[addon-doc-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/blob/7d24b2f/README.md
+[addon-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/82c333a
+[addon-doc-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/blob/82c333a/README.md
 [jethub-gpio2mqtt-issue]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/issues
-[jethub-gpio2mqtt-version-shield]: https://img.shields.io/badge/version-7d24b2f-blue.svg
+[jethub-gpio2mqtt-version-shield]: https://img.shields.io/badge/version-82c333a-blue.svg
 [jethub-gpio2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [jethub-gpio2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/8d42fa9

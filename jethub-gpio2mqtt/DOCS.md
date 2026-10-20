@@ -16,12 +16,12 @@ first.
 
 ## Supported Devices
 
-| Model                 | Description                                                           |
-| --------------------- | --------------------------------------------------------------------- |
-| JetHub H1 (J80)       | JetHome ARM controller                                                |
-| JetHub D1/D1+ (J100)  | JetHome ARM controller with 4 inputs, 3 relays, status LED            |
-| JetHub D2 (J200)      | JetHome ARM controller with 3 inputs, 2 relays, status LED, UXM slots |
-| JetHub D3-mini (J310) | JetHome modular ARM controller (S905Y5) with 4 UXM slots              |
+| Model                | Description                                                           |
+| -------------------- | --------------------------------------------------------------------- |
+| JetHub H1 (J80)      | JetHome ARM controller                                                |
+| JetHub D1/D1+ (J100) | JetHome ARM controller with 4 inputs, 3 relays, status LED            |
+| JetHub D2 (J200)     | JetHome ARM controller with 3 inputs, 2 relays, status LED, UXM slots |
+| JetHub D3 (J310)     | JetHome modular ARM controller (S905Y5) with 4 UXM slots              |
 
 ## Configuration
 
@@ -83,7 +83,7 @@ JetHub model selection.
 - `jethub-h1` - JetHome JetHub H1 (J80)
 - `jethub-d1` - JetHome JetHub D1/D1+ (J100)
 - `jethub-d2` - JetHome JetHub D2 (J200)
-- `jethub-d3` - JetHome JetHub D3-mini (J310)
+- `jethub-d3` - JetHome JetHub D3 (J310)
 - `manual` - Use custom configuration (requires `custom_config`)
 
 **Default**: `auto`
@@ -208,7 +208,7 @@ Includes all basic resources plus UXM slot control pins:
 | uxm2_reset | Output | UXM slot 2 RESET pin |
 | uxm2_boot  | Output | UXM slot 2 BOOT pin  |
 
-### JetHub D3-mini (J310)
+### JetHub D3 (J310)
 
 The D3 is a modular controller: the base board has no relays or digital
 inputs — I/O functions are provided by the plugged UXM modules. The addon

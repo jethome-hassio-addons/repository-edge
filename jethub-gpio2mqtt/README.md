@@ -35,7 +35,7 @@ For Home Assistant Supervised, please select your device manually in the configu
 - internal stat LED
 - (optional) modules slot control (BOOT, RESET)
 
-### [JetHome JetHub D3-mini](https://docs.iot.jethome.com) (modular controller, 4 UXM slots)
+### [JetHome JetHub D3](https://docs.iot.jethome.com) (modular controller, 4 UXM slots)
 
 **Exposed peripheral:**
 
@@ -73,5 +73,5 @@ If you are more interested in stable releases of our add-ons:
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-7d24b2f-blue.svg
-[release]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/7d24b2f
+[release-shield]: https://img.shields.io/badge/version-82c333a-blue.svg
+[release]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/82c333a
