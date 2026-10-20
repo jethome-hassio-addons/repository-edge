@@ -42,7 +42,7 @@ https://github.com/jethome-hassio-addons/repository-edge
 ![Supports aarch64 Architecture][jethub-gpio2mqtt-aarch64-shield]
 ![Supports amd64 Architecture][jethub-gpio2mqtt-amd64-shield]
 
-Expose JetHome JetHub peripheral (relays, inputs, etc..) via gpio2mqtt
+Expose JetHome JetHub (D1/D2/D3/H1) peripheral (relays, inputs, UXM control) via gpio2mqtt
 
 [:books: JetHome JetHub GPIO2MQTT peripheral exposer add-on documentation][addon-doc-jethub-gpio2mqtt]
 
