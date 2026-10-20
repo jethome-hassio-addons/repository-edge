@@ -36,6 +36,16 @@ https://github.com/jethome-hassio-addons/repository-edge
 
 ## Add-ons provided by this repository
 
+### &#10003; [JetHome JetHub GPIO2MQTT peripheral exposer][addon-jethub-gpio2mqtt]
+
+![Latest Version][jethub-gpio2mqtt-version-shield]
+![Supports aarch64 Architecture][jethub-gpio2mqtt-aarch64-shield]
+![Supports amd64 Architecture][jethub-gpio2mqtt-amd64-shield]
+
+Expose JetHome JetHub peripheral (relays, inputs, etc..) via gpio2mqtt
+
+[:books: JetHome JetHub GPIO2MQTT peripheral exposer add-on documentation][addon-doc-jethub-gpio2mqtt]
+
 ### &#10003; [JetHome JetHub mqtt-io peripheral exposer][addon-jethub-mqtt-io]
 
 ![Latest Version][jethub-mqtt-io-version-shield]
@@ -54,8 +64,15 @@ add-on, represents the version number.
 
 ## Support
 
+- [Open an issue for the add-on: JetHome JetHub GPIO2MQTT peripheral exposer][jethub-gpio2mqtt-issue]
 - [Open an issue for the add-on: JetHome JetHub mqtt-io peripheral exposer][jethub-mqtt-io-issue]
 
+[addon-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/8d71208
+[addon-doc-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/blob/8d71208/README.md
+[jethub-gpio2mqtt-issue]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/issues
+[jethub-gpio2mqtt-version-shield]: https://img.shields.io/badge/version-8d71208-blue.svg
+[jethub-gpio2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[jethub-gpio2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/fd3152f
 [addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/fd3152f/README.md
 [jethub-mqtt-io-issue]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/issues
