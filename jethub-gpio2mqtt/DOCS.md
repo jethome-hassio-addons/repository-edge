@@ -1,4 +1,4 @@
-# JetHome JetHub GPIO2MQTT
+# JetHome peripheral exposer
 
 Expose [JetHome JetHub](https://jethome.ru) GPIO resources (relays, inputs, LEDs) to
 Home Assistant via [gpio2mqtt](https://github.com/jethome-iot/gpio2mqtt) with
