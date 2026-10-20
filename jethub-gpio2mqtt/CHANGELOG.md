@@ -1,1 +1,1 @@
-- fix: product name is JetHub D3, drop the -mini suffix everywhere
+- chore: update gpio2mqtt to 0.2.0
