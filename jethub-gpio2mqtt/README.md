@@ -8,7 +8,8 @@ Expose [JetHome JetHub](https://jethome.com) resources (relays,inputs,etc..) to 
 
 This addon uses the new gpio2mqtt MQTT topic structure, which changes the entity IDs
 in Home Assistant compared to the legacy jethub-mqtt-io addon.
-Do not run both addons at the same time — they claim the same GPIO lines.
+It refuses to start while the legacy jethub-mqtt-io addon is running
+(both claim the same GPIO lines) — stop the legacy add-on first.
 
 **Note**: _All used GPIOs will **disappear** from **/sys/class/gpio** during addon run_
 
@@ -72,5 +73,5 @@ If you are more interested in stable releases of our add-ons:
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-cdf7df1-blue.svg
-[release]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/cdf7df1
+[release-shield]: https://img.shields.io/badge/version-7d24b2f-blue.svg
+[release]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/7d24b2f

@@ -9,9 +9,10 @@ legacy [jethub-mqtt-io](https://github.com/jethome-hassio-addons/addon-jethub-mq
 addon, it uses the new MQTT topic structure by default, which changes the entity IDs
 created in Home Assistant.
 
-**Warning:** Do not run this addon and the legacy `jethub-mqtt-io` addon at the same
-time on the same device — both claim the same GPIO lines and will conflict.
-Disable one before starting the other.
+**Note:** This addon checks at startup that the legacy `jethub-mqtt-io` addon
+is not running: both claim the same GPIO lines. If it is running, this addon
+stops with an explanation in the log — stop and disable `jethub-mqtt-io`
+first.
 
 ## Supported Devices
 
@@ -160,7 +161,8 @@ Via `custom_config` the daemon can also publish in the Wirenboard convention
 
 1. Install this addon (it can coexist with the old one while both are stopped).
 2. Configure it (model, MQTT — defaults usually suffice).
-3. **Stop and disable** the `jethub-mqtt-io` addon — both addons use the same GPIO lines.
+3. **Stop and disable** the `jethub-mqtt-io` addon — the startup check of this
+   addon will tell you if it is still in the way.
 4. Start this addon. New entities will appear, grouped under a JetHub device.
 5. Update your automations and dashboards to the new entity IDs.
 
