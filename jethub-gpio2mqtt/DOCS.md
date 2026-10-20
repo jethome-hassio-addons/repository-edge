@@ -15,12 +15,12 @@ Disable one before starting the other.
 
 ## Supported Devices
 
-| Model                | Description                                                           |
-| -------------------- | --------------------------------------------------------------------- |
-| JetHub H1 (J80)      | JetHome ARM controller                                                |
-| JetHub D1/D1+ (J100) | JetHome ARM controller with 4 inputs, 3 relays, status LED            |
-| JetHub D2 (J200)     | JetHome ARM controller with 3 inputs, 2 relays, status LED, UXM slots |
-| JetHub D3-mini (J310) | JetHome modular ARM controller (S905Y5) with 4 UXM slots            |
+| Model                 | Description                                                           |
+| --------------------- | --------------------------------------------------------------------- |
+| JetHub H1 (J80)       | JetHome ARM controller                                                |
+| JetHub D1/D1+ (J100)  | JetHome ARM controller with 4 inputs, 3 relays, status LED            |
+| JetHub D2 (J200)      | JetHome ARM controller with 3 inputs, 2 relays, status LED, UXM slots |
+| JetHub D3-mini (J310) | JetHome modular ARM controller (S905Y5) with 4 UXM slots              |
 
 ## Configuration
 
@@ -108,17 +108,17 @@ instead of the built-in configuration for your JetHub model.
 
 MQTT connection settings.
 
-| Option               | Description                                            | Default             |
-| -------------------- | ------------------------------------------------------ | ------------------- |
-| `mqtt.host`          | MQTT server host (leave blank for auto-discovery)      | auto                |
-| `mqtt.port`          | MQTT server port (leave blank for auto-discovery)      | auto                |
-| `mqtt.user`          | MQTT server user (leave blank for auto-discovery)      | auto                |
-| `mqtt.password`      | MQTT server password (leave blank for auto-discovery)  | auto                |
-| `mqtt.client_id`     | MQTT client ID                                         | `jethub-gpio2mqtt`  |
-| `mqtt.topic_prefix`  | MQTT topic prefix for state/command topics             | `jethub-gpio2mqtt`  |
-| `mqtt.legacy_mqttio` | Use legacy mqtt-io entity naming (see below)           | `false`             |
-| `mqtt.keepalive`     | MQTT keepalive interval (seconds)                      | `60`                |
-| `mqtt.qos`           | MQTT QoS level (0, 1, or 2)                            | `1`                 |
+| Option               | Description                                           | Default            |
+| -------------------- | ----------------------------------------------------- | ------------------ |
+| `mqtt.host`          | MQTT server host (leave blank for auto-discovery)     | auto               |
+| `mqtt.port`          | MQTT server port (leave blank for auto-discovery)     | auto               |
+| `mqtt.user`          | MQTT server user (leave blank for auto-discovery)     | auto               |
+| `mqtt.password`      | MQTT server password (leave blank for auto-discovery) | auto               |
+| `mqtt.client_id`     | MQTT client ID                                        | `jethub-gpio2mqtt` |
+| `mqtt.topic_prefix`  | MQTT topic prefix for state/command topics            | `jethub-gpio2mqtt` |
+| `mqtt.legacy_mqttio` | Use legacy mqtt-io entity naming (see below)          | `false`            |
+| `mqtt.keepalive`     | MQTT keepalive interval (seconds)                     | `60`               |
+| `mqtt.qos`           | MQTT QoS level (0, 1, or 2)                           | `1`                |
 
 ### Option: `mqtt.legacy_mqttio`
 
@@ -189,11 +189,11 @@ Includes all basic resources plus:
 
 ### JetHub D2 (Basic)
 
-| Resource            | Type   | Description        |
-| ------------------- | ------ | ------------------ |
-| jethub_user_button  | Input  | Front panel button |
-| jethub_input_1..3   | Input  | Digital inputs     |
-| jethub_relay_1..2   | Output | Relays             |
+| Resource           | Type   | Description        |
+| ------------------ | ------ | ------------------ |
+| jethub_user_button | Input  | Front panel button |
+| jethub_input_1..3  | Input  | Digital inputs     |
+| jethub_relay_1..2  | Output | Relays             |
 
 ### JetHub D2 (Module)
 
@@ -213,16 +213,16 @@ inputs — I/O functions are provided by the plugged UXM modules. The addon
 exposes the UXM module control lines, which live on the TCA6408A I2C port
 expander (the chip is resolved automatically at startup):
 
-| Resource    | Type   | Description                |
-| ----------- | ------ | -------------------------- |
-| uxm1_reset  | Output | UXM slot 1 RESET (nRESET)  |
-| uxm1_mode   | Output | UXM slot 1 MODE (nMODE)    |
-| uxm2_reset  | Output | UXM slot 2 RESET           |
-| uxm2_mode   | Output | UXM slot 2 MODE            |
-| uxm3_reset  | Output | UXM slot 3 RESET           |
-| uxm3_mode   | Output | UXM slot 3 MODE            |
-| uxm4_reset  | Output | UXM slot 4 RESET           |
-| uxm4_mode   | Output | UXM slot 4 MODE            |
+| Resource   | Type   | Description               |
+| ---------- | ------ | ------------------------- |
+| uxm1_reset | Output | UXM slot 1 RESET (nRESET) |
+| uxm1_mode  | Output | UXM slot 1 MODE (nMODE)   |
+| uxm2_reset | Output | UXM slot 2 RESET          |
+| uxm2_mode  | Output | UXM slot 2 MODE           |
+| uxm3_reset | Output | UXM slot 3 RESET          |
+| uxm3_mode  | Output | UXM slot 3 MODE           |
+| uxm4_reset | Output | UXM slot 4 RESET          |
+| uxm4_mode  | Output | UXM slot 4 MODE           |
 
 Notes:
 

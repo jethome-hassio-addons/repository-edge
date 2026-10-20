@@ -1,7 +1,8 @@
 name: JetHome JetHub GPIO2MQTT peripheral exposer
-version: 8d71208
+version: cdf7df1
 slug: jethub-gpio2mqtt
-description: Expose JetHome JetHub peripheral (relays, inputs, etc..) via gpio2mqtt
+description: Expose JetHome JetHub (D1/D2/D3/H1) peripheral (relays, inputs, UXM control)
+  via gpio2mqtt
 url: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt
 init: false
 hassio_api: true
