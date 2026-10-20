@@ -1,4 +1,5 @@
 # Changelog since v0.3.0
+- ci: bump actions/checkout to v7 
 - docs: update README template
 
 - Fix shields.io badge for versions with hyphens (escape - as --)
