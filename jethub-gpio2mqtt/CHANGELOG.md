@@ -1,1 +1,1 @@
-- docs: startup refusal lands in error state; keep supervisor watchdog off
+- chore: update gpio2mqtt to 0.2.2
