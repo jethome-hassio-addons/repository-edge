@@ -11,8 +11,13 @@ created in Home Assistant.
 
 **Note:** This addon checks at startup that the legacy `jethub-mqtt-io` addon
 is not running: both claim the same GPIO lines. If it is running, this addon
-stops with an explanation in the log — stop and disable `jethub-mqtt-io`
-first.
+stops with an explanation in the log and ends in the error state — stop and
+disable `jethub-mqtt-io` first.
+
+**Watchdog:** keep the Supervisor watchdog toggle OFF for this addon. An
+intentional startup refusal exits with a non-zero code by design; the
+watchdog would retry the start a few times before giving up, which only
+adds noise.
 
 ## Supported Devices
 
