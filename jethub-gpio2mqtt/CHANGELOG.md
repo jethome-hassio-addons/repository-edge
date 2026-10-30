@@ -1,4 +1,5 @@
 # Changelog since v1.0.2
+- chore: drop verbose comment from apparmor profile 
 - fix(apparmor): allow reads of sysfs GPIO chip directories under /sys/devices
 
 The device symlinks in /sys/bus/gpio/devices resolve into /sys/devices;
