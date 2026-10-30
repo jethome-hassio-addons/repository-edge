@@ -51,6 +51,15 @@ profile hassio-jethub-gpio2mqtt flags=(attach_disconnected,mediate_deleted) {
   /sys/bus/i2c/devices/ r,
   /sys/bus/i2c/devices/** r,
 
+  # Sysfs GPIO chip directories under /sys/devices: the device symlinks in
+  # /sys/bus/gpio/devices resolve there (kernel 6.x resolves straight into
+  # the legacy chip dir containing `base`); the unexport helper reads them
+  # to map line offsets to global sysfs numbers
+  /sys/devices/**/gpiochip[0-9]*/ r,
+  /sys/devices/**/gpiochip[0-9]*/** r,
+  /sys/devices/**/gpio/ r,
+  /sys/devices/**/gpio/** r,
+
   # Model detection: device tree
   /sys/firmware/devicetree/base/** r,
 }

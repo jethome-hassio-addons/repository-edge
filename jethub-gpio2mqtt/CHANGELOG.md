@@ -1,4 +1,11 @@
 # Changelog since v1.0.2
+- fix(apparmor): allow reads of sysfs GPIO chip directories under /sys/devices
+
+The device symlinks in /sys/bus/gpio/devices resolve into /sys/devices;
+the unexport helper needs to read those directories (base/ngpio/label)
+to map line offsets to global sysfs numbers. Without these rules all
+base-resolution methods were silently denied on sysfs-active systems
+(Armbian/HA Supervised, issue #2 follow-up). Rules verified on hardware. 
 - fix(unexport): resolve sysfs chip base on kernel 6.x and fail loudly
 
 Issue #2 (JetHub D1+, Armbian 6.6, HA Supervised): all configured lines
